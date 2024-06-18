@@ -1,21 +1,31 @@
-## Trabajo Sobre Algotimos del Módulo sobre Modelos de I.A. Satisfacción_de_restricciones
+## Trabajo Sobre Algotimos del Módulo sobre Modelos de I.A. Colorear Mapas
+Sea un mapa con los países A,B,C,D y E. Las fronteras entre los países son : (A,B), (A,C), (B,C),(B,D),(C,D),(C,E)y(D,E).
 
-Se desea seleccionar cuatro números diferentes del 2 al 9 (ambos incluidos) que cumplan las siguientes condiciones: 
+Colorear el mapa con tres colores: Rojo, Azul y Verde. El país A se pinta de Azul, país B Rojo. ¿Existe alguna asignación de que cumpla esas condiciones y no pinte del mismo color dos países fronterizos?
 
-El primero y el tercero son iguales módulo 5. 
-El cuarto es mayor que el segundo en una unidad 
-El primero y el segundo no son primos entre sí. 
+a) Formalizar el problema con satisfacción de restricciones
 
-Se pide: 
-a) plantear este problema como una satisfacción de restricciones. 
-b) aplicar un procedimiento de consistencia en arcos par reducir los dominios.
+b)Grafo de Restricciones
+
+c)Aplicar el algoritmo de consistencia en arcos
 
 ## Enunciado del problema.
-![Enuciado](jmat_Problema_II_satisfacción_restricciones_M.I.A.png)
+![Enuciado](4.png)
 
 
-## Aquí hay un ejemplo del codigo, con los dominios finales:
-![Resultado Código](jmat_Problema_II_de_satisfacción_de_restricciones_M.I.A.png)
+# Aquí hay un ejemplo de la implementacion del código, con los dominios finales:
+## Zona para las restricciones y para la lógica de resolución del problema.
+
+![Resultado Código](jmat_Problema_COLOREAR_MAPAS.png)
+
+
+
+
+# Aquí hay un ejemplo del codigo, con los dominios finales:
+
+![Resultado Código](9.png)
+
+
 
 ## Documentación.
 * [Documentación al proyecto](https://www.canva.com/design/DAF8R-DBvEs/ibfosnvF0cBu-OmEi8PMeA/view?utm_content=DAF8R-DBvEs&utm_campaign=designshare&utm_medium=link&utm_source=editor)
