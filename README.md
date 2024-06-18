@@ -1,4 +1,4 @@
-## Trabajo Sobre Algotimos del Módulo sobre Modelos de I.A.
+## Trabajo Sobre Algotimos del Módulo sobre Modelos de I.A. En cada Rama hbrá un Trabajo diferente para dicho Módulo.
 
 Este código implementa el algoritmo A* para encontrar el camino más corto entre dos puntos en un gráfico, utilizando tanto el costo real para llegar a cada nodo (conocido como el costo g) como una heurística que estima el costo de llegar al nodo final desde un nodo dado (el costo h). La suma de estos dos costos se conoce como el costo f.
 
