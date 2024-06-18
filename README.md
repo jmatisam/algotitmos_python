@@ -22,4 +22,6 @@ Finalmente, la función draw_graph utiliza la biblioteca networkx para dibujar e
 
 Aquí hay un ejemplo de cómo podría verse un gráfico simple con los nodos y caminos:
 
-*[Grafico](https://drive.google.com/file/d/1tJZh2kpwup6iN4nhEL8Y-L12d95i40Wd/view?usp=drive_link)
+![Grafico](https://github.com/jmatisam/algotitmos_python/blob/main/Esquema_camino.png)
+
+* [Documentación al proyecto:](https://drive.google.com/file/d/1tJZh2kpwup6iN4nhEL8Y-L12d95i40Wd/view?usp=drive_link)
