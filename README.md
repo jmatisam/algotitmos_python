@@ -1,25 +1,27 @@
-## Trabajo Sobre Algotimos del Módulo sobre Modelos de I.A.
+## Trabajo Sobre Algotimos del Módulo sobre Modelos de I.A. Satisfacción_de_restricciones
 
-Este código implementa el algoritmo A* para encontrar el camino más corto entre dos puntos en un gráfico, utilizando tanto el costo real para llegar a cada nodo (conocido como el costo g) como una heurística que estima el costo de llegar al nodo final desde un nodo dado (el costo h). La suma de estos dos costos se conoce como el costo f.
+Se desea seleccionar cuatro números diferentes del 2 al 9 (ambos incluidos) que cumplan las siguientes condiciones: 
+
+El primero y el tercero son iguales módulo 5. 
+El cuarto es mayor que el segundo en una unidad 
+El primero y el segundo no son primos entre sí. 
+
+Se pide: 
+a) plantear este problema como una satisfacción de restricciones. 
+b) aplicar un procedimiento de consistencia en arcos par reducir los dominios.
 
 ## Enunciado del problema.
-![Enuciado](enucniado.png)
+![Enuciado](jmat_Problema_II_satisfacción_restricciones_M.I.A.png)
 
 
-El código define dos diccionarios: distancias, que contiene las distancias entre los nodos, y heuristica_avion, que contiene las estimaciones heurísticas de la distancia al nodo objetivo F desde cada nodo.
+## Aquí hay un ejemplo del codigo, con los dominios finales:
+![Resultado Código](jmat_Problema_II_de_satisfacción_de_restricciones_M.I.A.png)
 
-La función a_star es la implementación del algoritmo A*. Inicia con el conjunto abierto open_set que contiene el nodo de inicio con un costo estimado de 0. El closed_set es un conjunto que almacenará los nodos ya evaluados.
+## Documentación.
+* [Documentación al proyecto](https://www.canva.com/design/DAF8R-DBvEs/ibfosnvF0cBu-OmEi8PMeA/view?utm_content=DAF8R-DBvEs&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
-La función utiliza dos diccionarios, g_score y f_score, para llevar la cuenta de los costos actuales y estimados, respectivamente. Inicialmente, todos los nodos tienen un costo infinito, excepto el nodo de inicio.
+* [Problemas de Satisfacción de Restricciones](https://www.cs.us.es/~fsancho/Blog/posts/CSP.md)
+* [Wikipedia](https://es.wikipedia.org/wiki/Problema_de_satisfacci%C3%B3n_de_restricciones)
 
-El bucle principal continúa mientras haya nodos en open_set. Selecciona el nodo con el menor costo f y lo evalúa. Si el nodo actual es el destino, reconstruye el camino utilizando la función reconstruct_path y lo devuelve.
 
-Si no es el destino, el algoritmo actualiza los costos de los vecinos del nodo actual y los agrega al open_set si no están en el closed_set y si el nuevo camino es mejor que cualquier camino previo encontrado.
 
-La función reconstruct_path construye el camino recorriendo hacia atrás desde el nodo destino hasta el nodo de inicio, utilizando el diccionario came_from que mantiene un registro de cómo se llegó a cada nodo.
-
-Finalmente, la función draw_graph utiliza la biblioteca networkx para dibujar el gráfico y resaltar el camino encontrado. Utiliza matplotlib para mostrar el gráfico.
-
-Aquí hay un ejemplo de cómo podría verse un gráfico simple con los nodos y caminos:
-
-![Grafico](https://drive.google.com/file/d/1tJZh2kpwup6iN4nhEL8Y-L12d95i40Wd/view?usp=drive_link)
