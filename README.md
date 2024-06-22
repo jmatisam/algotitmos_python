@@ -1,8 +1,18 @@
-## Trabajo Sobre Algotimos del Módulo sobre Modelos de I.A. En cada Rama hbrá un Trabajo diferente para dicho Módulo.
+# Trabajo Sobre Algotimos del Módulo sobre Modelos de I.A. En cada Rama habrá un Trabajo diferente para dicho Módulo.
 
+## 1º Rama main, el código implementa el algoritmo A* para encontrar el camino más corto entre dos puntos en un gráfico
+
+##  [2º Rama satisfacción_de_restricciones-_II. Trabajo Sobre Algotimos del Módulo sobre Modelos de I.A. Satisfacción_de_restricciones: Se desea seleccionar cuatro números diferentes del 2 al 9 (ambos incluidos) que cumplan unas condiciones determinadas.](https://github.com/jmatisam/algotitmos_python/tree/satisfacción_de_restricciones-_II)
+
+## [3º Rama satisf_III. Trabajo Sobre Algotimos del Módulo sobre Modelos de I.A. Colorear Mapas: Sea un mapa con los países A,B,C,D y E. Las fronteras entre los países son : (A,B), (A,C), (B,C),(B,D),(C,D),(C,E)y(D,E).](https://github.com/jmatisam/algotitmos_python/tree/satisf_III)
+
+## --------------------------------------------------------------------------------------------------------
+
+# 1º Rama main:
 Este código implementa el algoritmo A* para encontrar el camino más corto entre dos puntos en un gráfico, utilizando tanto el costo real para llegar a cada nodo (conocido como el costo g) como una heurística que estima el costo de llegar al nodo final desde un nodo dado (el costo h). La suma de estos dos costos se conoce como el costo f.
 
 ## Enunciado del problema.
+* [Documentación al proyecto:](https://drive.google.com/file/d/1tJZh2kpwup6iN4nhEL8Y-L12d95i40Wd/view?usp=drive_link)
 ![Enuciado](enucniado.png)
 
 
@@ -24,4 +34,4 @@ Aquí hay un ejemplo de cómo podría verse un gráfico simple con los nodos y c
 
 ![Grafico](https://github.com/jmatisam/algotitmos_python/blob/main/Esquema_camino.png)
 
-* [Documentación al proyecto:](https://drive.google.com/file/d/1tJZh2kpwup6iN4nhEL8Y-L12d95i40Wd/view?usp=drive_link)
+
