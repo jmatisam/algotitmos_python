@@ -1,4 +1,4 @@
-# Trabajo Sobre Algotimos del Módulo sobre Modelos de I.A. En cada Rama habrá un Trabajo diferente para dicho Módulo.
+# Trabajos Sobre Algotimos, para el Módulo teórico de Modelos de I.A.  En cada Rama habrá un Trabajo diferente para dicho Módulo.
 
 ## 1º Rama main, el código implementa el algoritmo A* para encontrar el camino más corto entre dos puntos en un gráfico
 
